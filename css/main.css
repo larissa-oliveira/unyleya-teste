@@ -1,0 +1,101 @@
+@import url('https://fonts.googleapis.com/css?family=Montserrat&display=swap');
+
+*{
+    font-family: 'Montserrat', sans-serif;
+}
+
+body{
+    background-color: #ffffff;
+}
+
+.carousel-caption{
+    text-align: right;
+    top: 10rem;
+    right: 10%;
+}
+
+.carousel-caption h4{
+    font-weight: 700;
+}
+
+.btn-light {
+    color: #fff;
+    background-color: #622a40;
+    border-color: #622a40;
+}
+
+#novos-cursos{
+    margin-top: 5rem;
+}
+
+.curso{
+    background-color: #f9f9f9;
+    padding: 1rem;
+    margin-bottom: .5rem;
+    height: 180px;
+}
+
+.curso-meio{
+    background-color: #f9f9f9;
+    padding: 1rem;
+    margin-top: 1.5rem;
+    height: 180px;
+}
+
+.curso h4, .curso-meio h4{
+    color: #622a40;
+    font-weight: 700;
+}
+
+#linha-cursos-1, #linha-cursos-2{
+    margin-top: 1.5rem;
+}
+
+#sobre-unyleya{
+    background-color: #f9f9f9;
+    padding: 2rem 0 2rem 0;    
+}
+
+#sobre-unyleya h4{
+    color: #622a40;
+    font-weight: 700;
+}
+
+#wave-top > svg, #wave-bottom > svg{
+    display: block;
+    margin: 0;
+    padding: 0;
+
+}
+#cta{
+    margin-top: 1rem;
+    background: rgb(2,0,36);
+    background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(98,42,64,1) 0%, rgba(165,66,112,1) 92%);
+    height: 350px;
+}
+
+.txt-cta{
+    color: #ffffff;
+    margin: 5rem 0 5rem 0;
+}
+
+.txt-cta h1{
+    font-weight: 700;
+}
+
+form{
+    background-color: #f9f9f9;
+    border-radius: 20px;
+    padding: 5rem 3.5rem;
+    margin-top: -3rem;
+
+    -webkit-box-shadow: -1px -1px 8px -2px rgba(0,0,0,0.76);
+    -moz-box-shadow: -1px -1px 8px -2px rgba(0,0,0,0.76);
+    box-shadow: -1px -1px 8px -2px rgba(0,0,0,0.76);
+}
+
+#footer{
+    background-color: #f9f9f9;
+    height: 100px;
+    margin-top: 5rem;
+}
