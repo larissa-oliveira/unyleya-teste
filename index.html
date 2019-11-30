@@ -1,109 +1,138 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
 
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.0/css/bootstrap.min.css" integrity="sha384-SI27wrMjH3ZZ89r4o+fGIJtnzkAnFs3E4qz9DIYioCQ5l9Rd/7UAa8DHcaL8jkWt" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.0/css/bootstrap.min.css"
+        integrity="sha384-SI27wrMjH3ZZ89r4o+fGIJtnzkAnFs3E4qz9DIYioCQ5l9Rd/7UAa8DHcaL8jkWt" crossorigin="anonymous">
     <link rel="stylesheet" href="css/main.css">
     <title>Faculdade Unyleya</title>
 </head>
+
 <body>
     <header class="container-fluid">
-        <nav class="navbar navbar-light bg-light">
+        <nav class="navbar sticky-top navbar-light bg-light navbar-expand-lg">
             <a class="navbar-brand" href="#">
-                <img src="img/logo-unyleya.png" width="200" height="70" class="d-inline-block align-top" alt="">         
+                <img src="img/logo-unyleya.png" width="200" height="70" class="d-inline-block align-top" alt="">
             </a>
+            
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo01" aria-controls="navbarText" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+
+            <div class="collapse navbar-collapse justify-content-end" id="navbarTogglerDemo01">
+            <ul class="nav">
+                <li class="nav-item">
+                    <a class="nav-link" href="#novos-cursos">CURSOS</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#sobre-unyleya">A UNYLEYA</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#cta">INSCREVA-SE</a>
+                </li>
+            </ul>
+        </div>
         </nav>
     </header>
 
     <section id="page-top" class="container-fluid">
-            <div id="carouselExampleSlidesOnly" class="carousel slide" data-ride="carousel">
-                    <div class="carousel-inner">
-                      <div class="carousel-item active">
-                          <img src="img/bg-slide.png" class="d-block w-100" alt="...">
-                      </div>
-                      <div class="carousel-caption d-none d-md-block">
-                            <h4>PÓS-GRADUAÇÃO UNYLEYA</h4>
-                            <h1>Conheça os novos</h1>
-                            <h1>cursos na área da</h1>
-                            <h1>saúde.</h1>
-                            <button type="button" class="btn btn-light">conheça ></button>
-                          </div>
-                    </div>
+        <div id="carouselExampleSlidesOnly" class="carousel slide" data-ride="carousel">
+            <div class="carousel-inner">
+                <div class="carousel-item active">
+                    <img src="img/bg-slide.png" class="d-block w-100" alt="...">
+                </div>
+                <div class="carousel-caption d-md-block">
+                    <h4>PÓS-GRADUAÇÃO UNYLEYA</h4>
+                    <h1>Conheça os novos</h1>
+                    <h1>cursos na área da</h1>
+                    <h1>saúde.</h1>
+                    <a class="btn btn-light" href="#cta">escolha um curso</a>
+                </div>
             </div>
+        </div>
     </section>
 
     <section id="novos-cursos" class="container-fluid">
-       <div class="container">    
-        <div class="row">
-            <div class="col-md">
-                <h2 class="text-center">
-                    NOSSOS CURSOS DE<br> 
-                    <strong>PÓS-GRADUAÇÃO</strong>
-                </h2>
-            </div>
-        </div>
-        <div id="linha-cursos-1">
-                <div class="row">
-                        <div class="col-md curso">
-                            <h4>CURSO UM</h4>
-                            <p> Lorem ipsum dolor sit amet, consectetur 
-                                adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
-                            </p>
-                            <img src="img/add.svg" width="32px" alt="" class="mx-auto d-block">
-                        </div>
-                        <div class="col-md curso-meio">
-                            <h4>CURSO UM</h4>
-                                <p> Lorem ipsum dolor sit amet, consectetur 
-                                    adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
-                                </p>
-                                <img src="img/add.svg" width="32px" alt="" class="mx-auto d-block">
-                            </div>
-                            <div class="col-md curso">
-                                <h4>CURSO UM</h4>
-                                <p> Lorem ipsum dolor sit amet, consectetur 
-                                        adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
-                                    </p>
-                                <img src="img/add.svg" width="32px" alt="" class="mx-auto d-block">
-                        </div>
+        <div class="container">
+            <div class="row">
+                <div class="col-md">
+                    <h3 class="text-center">
+                        NOVOS CURSOS NA ÁREA DE<br>
+                        <strong>SAÚDE E BEM-ESTAR</strong>
+                    </h3>
                 </div>
-        </div>
-       
+            </div>
+            <div id="linha-cursos-1">
+                <div class="row">
+                    <div class="col-md curso">
+                        <h4>Análises Clínicas</h4>
+                        <p>Duração: <strong>9 meses</strong></p>
+                        <img src="img/add.svg" width="25px" alt="" class="mx-auto d-block plus">
+                    </div>
+                    <div class="col-md curso">
+                        <h4>Antiaging</h4>
+                        <p>Duração: <strong>9 meses</strong></p>
+                        <img src="img/add.svg" width="25px" alt="" class="mx-auto d-block plus">
+                    </div>
+                    <div class="col-md curso">
+                        <h4>Biologia Molecular</h4>
+                        <p>Duração: <strong>10 meses</strong></p>
+                        <img src="img/add.svg" width="25px" alt="" class="mx-auto d-block plus">
+                    </div>
+                    <div class="col-md curso">
+                        <h4>Cuidados Peliativos</h4>
+                        <p>Duração: <strong>10 meses</strong></p>
+                        <img src="img/add.svg" width="25px" alt="" class="mx-auto d-block plus">
+                    </div>
+                </div>
+            </div>
 
             <div id="linha-cursos-2">
-                    <div class="row">
-                            <div class="col-md curso">
-                                <h4>CURSO UM</h4>
-                                <p> Lorem ipsum dolor sit amet, consectetur 
-                                    adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
-                                </p>
-                                <img src="img/add.svg" width="32px" alt="" class="mx-auto d-block">
-                            </div>
-                            <div class="col-md curso-meio">
-                                <h4>CURSO UM</h4>
-                                    <p> Lorem ipsum dolor sit amet, consectetur 
-                                        adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
-                                    </p>
-                                    <img src="img/add.svg" width="32px" alt="" class="mx-auto d-block">
-                                </div>
-                                <div class="col-md curso">
-                                    <h4>CURSO UM</h4>
-                                    <p> Lorem ipsum dolor sit amet, consectetur 
-                                            adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
-                                        </p>
-                                    <img src="img/add.svg" width="32px" alt="" class="mx-auto d-block">
-                                </div>
+                <div class="row">
+                    <div class="col-md curso">
+                        <h4>Central de Materiais</h4>
+                        <p>Duração: <strong>8 meses</strong></p>
+                        <img src="img/add.svg" width="25px" alt="" class="mx-auto d-block plus">
+                    </div>
+                    <div class="col-md curso">
+                        <h4>Biotecnologia</h4>
+                        <p></p>Duração: <strong>10 meses</strong></p>
+                        <img src="img/add.svg" width="25px" alt="" class="mx-auto d-block plus">
+                    </div>
+                    <div class="col-md curso">
+                        <h4>Citologia Clínica</h4>
+                        <p>Duração: <strong>9 meses</strong></p>
+                        <img src="img/add.svg" width="25px" alt="" class="mx-auto d-block plus">
+                    </div>
+                    <div class="col-md curso">
+                            <h4>Citologia Oncótica</h4>
+                            <p>Duração: <strong>9 meses</strong></p>
+                            <img src="img/add.svg" width="25px" alt="" class="mx-auto d-block plus">
                         </div>
-               </div>
+                </div>
             </div>
+
+            <div class="row">
+                <div class="col text-center">
+                    <a class="btn btn-light btn-conheca" href="#cta">faça sua pré-matrícula</a>
+                </div>
+            </div>
+
+        </div>
     </section>
-    
+
     <section id="wave-top" class="container-fluid">
         <div class="row">
             <div class="col">
-                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320"><path fill="#f9f9f9" fill-opacity="1" d="M0,288L120,288C240,288,480,288,720,272C960,256,1200,224,1320,208L1440,192L1440,320L1320,320C1200,320,960,320,720,320C480,320,240,320,120,320L0,320Z"></path></svg>
+                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320">
+                    <path fill="#f9f9f9" fill-opacity="1"
+                        d="M0,288L120,288C240,288,480,288,720,272C960,256,1200,224,1320,208L1440,192L1440,320L1320,320C1200,320,960,320,720,320C480,320,240,320,120,320L0,320Z">
+                    </path>
+                </svg>
             </div>
         </div>
     </section>
@@ -116,30 +145,36 @@
                     <h2 class="text-center"><strong>ACELERA</strong> CARREIRAS</h2>
                     <p class="text-center">
                         É a maior Instituição do país na oferta de cursos de Graduação
-                        <br>    
-                       e Pós-Graduação a Distância e que permite ao aluno ingressar a qualquer tempo.
+                        <br>
+                        e Pós-Graduação a Distância e que permite ao aluno ingressar a qualquer tempo.
                     </p>
                 </div>
             </div>
 
             <div class="row">
                 <div class="col-md text-center">
-                        <img src="img/mundo.png" alt="">
-                        <h5>Presente em</h5>
-                        <h4>26 ESTADOS</h4>
-                        <h5>e no Distrito Federal</h5>
+                    <img src="img/mundo.png" alt="">
+                    <h5>Presente em</h5>
+                    <h4>26 ESTADOS</h4>
+                    <h5>e no Distrito Federal</h5>
                 </div>
                 <div class="col-md text-center">
-                        <img src="img/tela.png" alt="">
-                        <h5>Mais de</h5>
-                        <h4>900 CURSOS</h4>
-                        <h5>de pós-graduação EAD</h5>                        
+                    <img src="img/tela.png" alt="">
+                    <h5>Mais de</h5>
+                    <h4>900 CURSOS</h4>
+                    <h5>de pós-graduação EAD</h5>
                 </div>
                 <div class="col-md text-center">
-                        <img src="img/certificado.png" alt="">
-                        <h5>Mais de</h5>
-                        <h4>150.000</h4>
-                        <h5>alunos</h5>
+                    <img src="img/certificado.png" alt="">
+                    <h5>Mais de</h5>
+                    <h4>150.000</h4>
+                    <h5>alunos</h5>
+                </div>
+            </div>
+
+            <div class="row">
+                <div class="col text-center">
+                        <button class="btn btn-light btn-conheca">conheça a Unyleya</button>
                 </div>
             </div>
         </div>
@@ -165,36 +200,36 @@
                 </div>
 
                 <div class="col-md">
-                        <form>     
-                                <div class="form-group">
-                                  <select class="form-control" id="exampleFormControlSelect1" placeholder="Selecione um curso">
-                                    <option>1</option>
-                                    <option>2</option>
-                                    <option>3</option>
-                                    <option>4</option>
-                                    <option>5</option>
-                                  </select>
-                                </div>
-                                <div class="form-group">
-                                    <input type="email" placeholder="Email" class="form-control" id="exampleFormControlInput1">
-                                </div>
-                                <div class="form-group">
-                                    <input type="text" placeholder="Nome" class="form-control" id="exampleFormControlInput1">
-                                </div>
-                                <div class="form-group">
-                                    <input type="text" placeholder="Telefone" class="form-control" id="exampleFormControlInput1">
-                                </div>
-                                <div class="form-group">
-                                        <select class="form-control" id="exampleFormControlSelect1" placeholder="Selecione um curso">
-                                          <option>1</option>
-                                          <option>2</option>
-                                          <option>3</option>
-                                          <option>4</option>
-                                          <option>5</option>
-                                        </select>
-                                      </div>
+                    <form>
+                        <h5 class="text-center">Pós Graduação em <br >Saúde e Bem-Estar</h5>
+                        <p class="text-center">
+                            Preencha o formulário e garanta sua pré-matrícula!
+                        </p>
+                        <div class="form-group">
+                            <select class="form-control" id="exampleFormControlSelect1"
+                                placeholder="Selecione um curso">
+                                <option>Análises Clínicas</option>
+                                <option>Antiaging</option>
+                                <option>Biologia Molecular</option>
+                                <option>Cuidados Peliativos</option>
+                                <option>Central de Materiais</option>
+                                <option>Biotecnologia</option>
+                                <option>Citologia Clínica</option>
+                                <option>Citologia Oncótica</option>
+                            </select>
+                        </div>
+                        <div class="form-group">
+                            <input type="email" placeholder="Email" class="form-control" id="exampleFormControlInput1">
+                        </div>
+                        <div class="form-group">
+                            <input type="text" placeholder="Nome" class="form-control" id="exampleFormControlInput1">
+                        </div>
+                        <div class="form-group">
+                            <input type="text" placeholder="Telefone" class="form-control"
+                                id="exampleFormControlInput1">
+                        </div>
                         <div class="text-center">
-                            <button type="submit" class="btn btn-light">enviar</button>
+                            <button type="submit" class="btn btn-light">fazer pré-matrícula</button>
                         </div>
                     </form>
                 </div>
@@ -202,11 +237,11 @@
         </div>
     </section>
 
-    <section id="footer" class="container-fluid">
+    <section id="footer" class="container-fluid sticky-bottom">
         <div class="container">
             <div class="row">
                 <div class="col-md">
-
+                    <h6>Faculdade Unyleya. Todos os direitos reservados.</h6>
                 </div>
                 <div class="col-md"></div>
             </div>
@@ -214,8 +249,15 @@
 
     </section>
 
-    <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
-    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
-    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+    <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js"
+        integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
+        integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo"
+        crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"
+        integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6"
+        crossorigin="anonymous"></script>
 </body>
+
 </html>
